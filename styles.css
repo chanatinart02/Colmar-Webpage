@@ -209,6 +209,9 @@ video {
 .thesis-text {
     width: 60%;
     padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .thesis-media {
@@ -223,8 +226,26 @@ video {
 .sub-thesis {
     display: flex;
     padding: 16px;
-    /* width: 40%; */
 }
+
+/* footer */
+footer {
+    display: flex;
+    padding: 16px 24px;
+    color: var(--text-color);
+    border-top: 1px solid lightgray;
+  }
+  
+  footer .copyright {
+    flex-grow: 1;
+  }
+  
+  footer a {
+    margin-right: 24px;
+  }
+  
+
+  
 
 
 
