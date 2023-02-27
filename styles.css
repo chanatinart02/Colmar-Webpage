@@ -122,7 +122,8 @@ nav {
     padding-top: 32px;
 }
 
-.sub-info img {
+.sub-info img,
+.sub-thesis img {
     height: auto;
     width: 35%;
 }
@@ -185,6 +186,46 @@ nav {
 .course-text p {
     padding: 8px;
 }
+
+/* thesis */
+.thesis h2 {
+    padding: 32px;
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+.thesis-container {
+    display: flex;
+}
+
+.thesis-right {
+    width: 40%;
+}
+
+.thesis-text {
+    width: 60%;
+    padding-left: 16px;
+}
+
+.thesis-media {
+    padding: 0 24px 32px 24px;
+    width: 60%;
+}
+
+.thesis-text h3 {
+    padding-bottom: 8px;
+}
+
+.sub-thesis {
+    display: flex;
+    padding: 16px;
+    /* width: 40%; */
+}
+
 
 
 
