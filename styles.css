@@ -264,7 +264,94 @@ footer {
       .mobile img {
         height: 32px;
       }
-    
+
+      /* main */
+      .first {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .banner {
+        width: 100%;
+        padding: 0;
+      }
+
+      .right-side {
+        padding: 32px 16px;
+      }
+
+      .right-side button {
+        width: 100%;
+      }
+
+    /* information part  */
+    .left-side {
+        display: none;
+    }
+
+    .information {
+        width: 100%;
+    }
+
+    .sub-info {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    img.mobile {
+        width: 100%;
+        height: auto;
+        display: block;
+        padding-bottom: 16px;
+    }
+
+    img.desktop {
+        display: none;
+    }
+
+    .main-course {
+        background-color: white;
+    }
+
+   div .bg {
+        background-color: white;
+    }
+
+    /* course */
+    .sub-course img,
+    .course-text p {
+        display: none;
+    }
+
+    .course-text {
+        background-color: lightgray;
+        width: 100%;
+    }
+
+    .courses {
+        padding: 0;
+        margin: 0;
+    }
+
+    .sub-course {
+        margin: 8px ;
+    }
+
+    /* thesis */
+    .thesis-right, .thesis-text {
+        display: none;
+    }
+
+    .thesis-media {
+        width: 100%;
+        padding: 0;
+    }
+
+    /* footer */
+    footer a {
+        display: none;
+    }
 }
   
 
